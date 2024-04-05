@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CleanArchitectureProduct.Exception")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1dc09c7aaae77ed9156585218fe02f9a8abc2702")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+eb7f0867015f13ed63db06a0fc3ab2c018522626")]
 [assembly: System.Reflection.AssemblyProductAttribute("CleanArchitectureProduct.Exception")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CleanArchitectureProduct.Exception")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
