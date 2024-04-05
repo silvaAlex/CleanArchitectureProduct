@@ -1,0 +1,44 @@
+name: dockercompose3114984788065660054
+services:
+  cleanarchitectureproduct.api:
+    build:
+      context: D:\Dev\.net\CleanArchitectureProductAPI
+      dockerfile: CleanArchitectureProduct.API/Dockerfile
+    depends_on:
+      sqlserver:
+        condition: service_started
+        required: true
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+    image: cleanarchitectureproductapi
+    networks:
+      default: null
+    ports:
+      - mode: ingress
+        target: 80
+        published: "32033"
+        protocol: tcp
+  sqlserver:
+    environment:
+      ACCEPT_EULA: "Y"
+      MSSQL_PID: Developer
+      SA_PASSWORD: SqlServer2019!
+    expose:
+      - "1433"
+    image: mcr.microsoft.com/mssql/server:2019-latest
+    networks:
+      default: null
+    ports:
+      - mode: ingress
+        target: 1433
+        published: "1433"
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: c:\dados\volumes\mssql
+        target: /var/opt/mssql3
+        bind:
+          create_host_path: true
+networks:
+  default:
+    name: dockercompose3114984788065660054_default

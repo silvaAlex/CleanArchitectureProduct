@@ -1,7 +1,16 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\Dev\\.net\\CleanArchitectureProductAPI\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{19F60993-CF22-41D7-A67A-5D2616792717}|CleanArchitectureProduct.API\\CleanArchitectureProduct.API.csproj|d:\\dev\\.net\\cleanarchitectureproductapi\\cleanarchitectureproduct.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19F60993-CF22-41D7-A67A-5D2616792717}|CleanArchitectureProduct.API\\CleanArchitectureProduct.API.csproj|solutionrelative:cleanarchitectureproduct.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19F60993-CF22-41D7-A67A-5D2616792717}|CleanArchitectureProduct.API\\CleanArchitectureProduct.API.csproj|d:\\dev\\.net\\cleanarchitectureproductapi\\cleanarchitectureproduct.api\\extensions\\builderextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19F60993-CF22-41D7-A67A-5D2616792717}|CleanArchitectureProduct.API\\CleanArchitectureProduct.API.csproj|solutionrelative:cleanarchitectureproduct.api\\extensions\\builderextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -18,6 +27,32 @@
             {
               "$type": "Bookmark",
               "Name": "ST:129:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BuilderExtensions.cs",
+              "DocumentMoniker": "D:\\Dev\\.net\\CleanArchitectureProductAPI\\CleanArchitectureProduct.API\\Extensions\\BuilderExtensions.cs",
+              "RelativeDocumentMoniker": "CleanArchitectureProduct.API\\Extensions\\BuilderExtensions.cs",
+              "ToolTip": "D:\\Dev\\.net\\CleanArchitectureProductAPI\\CleanArchitectureProduct.API\\Extensions\\BuilderExtensions.cs",
+              "RelativeToolTip": "CleanArchitectureProduct.API\\Extensions\\BuilderExtensions.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-05T16:16:30.728Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Dev\\.net\\CleanArchitectureProductAPI\\CleanArchitectureProduct.API\\Program.cs",
+              "RelativeDocumentMoniker": "CleanArchitectureProduct.API\\Program.cs",
+              "ToolTip": "D:\\Dev\\.net\\CleanArchitectureProductAPI\\CleanArchitectureProduct.API\\Program.cs",
+              "RelativeToolTip": "CleanArchitectureProduct.API\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-05T16:14:46.328Z",
+              "EditorCaption": ""
             }
           ]
         }
